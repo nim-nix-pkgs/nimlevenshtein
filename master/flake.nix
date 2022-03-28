@@ -11,7 +11,6 @@
   inputs.src-nimlevenshtein-master.ref   = "refs/heads/master";
   inputs.src-nimlevenshtein-master.owner = "oswjk";
   inputs.src-nimlevenshtein-master.repo  = "nimlevenshtein";
-  inputs.src-nimlevenshtein-master.dir   = "";
   inputs.src-nimlevenshtein-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
